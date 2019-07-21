@@ -13,6 +13,15 @@ function johnLennonFacts(facts){
 }
 
 var fact = 0;
-while (counter<facts.length){
-  facts[counter] = facts(0)
+while (fact<facts.length){
+  facts[fact] = facts(0) + "!!!";
+  fact ++;
+}
+
+function iLoveTheBeatles(num){
+  var array = [];
+  do {
+    array.push("I love the Beatles!");
+    num ++;
+  } while {
 }
