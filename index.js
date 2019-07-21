@@ -9,14 +9,14 @@ for (var i = 0; i < musicians.length; i++){
 }
 
 function johnLennonFacts(facts){
-  
+  var fact = 0;
+  while (fact<facts.length){
+    facts[fact] = facts(0) + "!!!";
+    fact ++;
+  }
 }
 
-var fact = 0;
-while (fact<facts.length){
-  facts[fact] = facts(0) + "!!!";
-  fact ++;
-}
+
 
 function iLoveTheBeatles(num){
   var array = [];
